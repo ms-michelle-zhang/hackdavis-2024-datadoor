@@ -5,7 +5,7 @@ from rapidfuzz import process
 def get_nyc(data):
 
     # Read the CSV file into a pandas DataFrame
-    df = pd.read_csv('city_NewYorkCity.csv')
+    df = pd.read_csv('city_NewYorkCity_2024.csv')
 
     # Define a function to perform the fuzzy search
     def fuzzy_search(query, choices, limit=1):

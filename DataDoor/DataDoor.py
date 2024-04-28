@@ -70,21 +70,27 @@ def handle_form_submission():
         state_dict["url"] = truncate_url(state_dict["url"])
 
         #####NYC for Demo Purposes Only
-        if address_dict["City"]="Manhattan":
-            nyc_dict = get_nyc(data)
-            nyc_dict["name"] = truncate_name(state_dict["name"])
-            state_dict["summary"] = truncate_summary(state_dict["summary"])
-            state_dict["url"] = truncate_url(state_dict["url"])
+        if address_dict["City"]=="Manhattan":
+            muni_dict = get_nyc(data)
+            muni_dict["name"] = truncate_name(muni_dict["name"])
+            muni_dict["summary"] = truncate_summary(muni_dict["summary"])
+            muni_dict["url"] = truncate_url(muni_dict["url"])
 
+            county_dict = get_county(data, address_dict)
+            county_dict["name"] = truncate_name(county_dict["name"])
+            county_dict["summary"] = truncate_summary(county_dict["summary"])
+            county_dict["url"] = truncate_url(county_dict["url"])
+            
         #####County and Muni
-        county_dict, muni_dict = get_muni_county(data, address_dict)
-        county_dict["name"] = truncate_name(county_dict["name"])
-        county_dict["summary"] = truncate_summary(county_dict["summary"])
-        county_dict["url"] = truncate_url(county_dict["url"])
+        else:
+            county_dict, muni_dict = get_muni_county(data, address_dict)
+            county_dict["name"] = truncate_name(county_dict["name"])
+            county_dict["summary"] = truncate_summary(county_dict["summary"])
+            county_dict["url"] = truncate_url(county_dict["url"])
 
-        muni_dict["name"] = truncate_name(muni_dict["name"])
-        muni_dict["summary"] = truncate_summary(muni_dict["summary"])
-        muni_dict["url"] = truncate_url(muni_dict["url"])
+            muni_dict["name"] = truncate_name(muni_dict["name"])
+            muni_dict["summary"] = truncate_summary(muni_dict["summary"])
+            muni_dict["url"] = truncate_url(muni_dict["url"])
 
         #####Placeholder
         truncated_summary = truncate_summary(placeholder_summary)

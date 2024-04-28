@@ -95,4 +95,4 @@ def get_county(data, address_dict):
 ##        break
 
 
-    return(result_dict_county, result_dict_muni)
+    return(result_dict_county)
