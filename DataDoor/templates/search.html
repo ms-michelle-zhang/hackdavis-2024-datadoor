@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/search.css') }}" />
+	
+	
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Segoe UI:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="search1">
+      <!-- <img class="search-child" alt="" src="{{ url_for('static', filename='ellipse-1.svg') }}" /> -->
+
+      <div class="location-pin-outline-container">
+        <img
+          class="location-pin-outline1"
+          alt=""
+          src="{{ url_for('static', filename='location-pin-outline1.svg') }}"
+        />
+      </div>
+      <div class="path-11-container">
+        <img class="path-11-icon1" alt="" src="{{ url_for('static', filename='path-11.svg') }}" />
+      </div>
+      <div class="sidebar"></div>
+      <div class="logogroup">
+        <img class="logo-icon1" alt="" src="{{ url_for('static', filename='logo1.svg') }}" />
+
+      </div>
+      <div class="searchresult">
+        <div class="searchresult-child"></div>
+        <div class="searchresult-item"></div>
+        <img class="searchresult-inner" alt="" src="{{ url_for('static', filename='group-23.svg') }}" />
+
+        <div class="municipality">Municipality</div>
+        <div class="group-parent">
+          <div class="group-parent">
+            <div class="searchresult-child"></div>
+            <div class="searchresult-item"></div>
+            <img
+              class="searchresult-inner"
+              alt=""
+              src="{{ url_for('static', filename='group-25.svg') }}" />
+            />
+          </div>
+          <div class="municipality">Municipality</div>
+        </div>
+        <div class="municipalname">{{ placeholder_name }}</div>
+        <div class="inbox-number">
+          <div class="share">share</div>
+        </div>
+        <div class="rectangle-div"></div>
+        <div class="more-results">more results</div>
+        <img class="share-icon" alt="" src="{{ url_for('static', filename='share-icon.svg') }}" />
+
+        <img
+          class="door-open-icon-outline"
+          alt=""
+          src="{{ url_for('static', filename='door-open-icon-outline.svg') }}"
+        />
+
+        <div class="municipalurl">{{ placeholder_url }}</div>
+        <div class="municipalsummary">{{ placeholder_summary }}</div>
+      </div>
+      <article class="searchresult1">
+        <div class="searchresult-child"></div>
+        <div class="searchresult-item"></div>
+        <img class="searchresult-inner" alt="" src="{{ url_for('static', filename='group-23.svg') }}" />
+
+        <div class="municipality">Municipality</div>
+        <div class="group-parent">
+          <div class="searchresult-child"></div>
+          <div class="searchresult-item"></div>
+          <img class="searchresult-inner" alt="" src="{{ url_for('static', filename='group-25.svg') }}" />
+
+          <div class="county1">County</div>
+        </div>
+        <div class="countyname">{{ placeholder_name }}</div>
+        <div class="inbox-number">
+          <div class="share">share</div>
+        </div>
+        <div class="rectangle-div"></div>
+        <div class="more-results">more results</div>
+        <img class="share-icon" alt="" src="{{ url_for('static', filename='share-icon.svg') }}" />
+
+        <img
+          class="door-open-icon-outline"
+          alt=""
+          src="{{ url_for('static', filename='door-open-icon-outline.svg') }}"
+        />
+
+        <div class="countyurl">{{ placeholder_url }}</div>
+        <div class="municipalsummary">{{ placeholder_summary }}</div>
+      </article>
+      <article class="searchresult2" data-animate-on-scroll>
+        <div class="searchresult-child"></div>
+        <div class="searchresult-item"></div>
+        <img class="searchresult-inner" alt="" src="{{ url_for('static', filename='group-23.svg') }}" />
+
+        <div class="municipality">Municipality</div>
+        <div class="group-parent">
+          <div class="searchresult-child"></div>
+          <div class="searchresult-item"></div>
+          <img class="searchresult-inner" alt="" src="{{ url_for('static', filename='group-25.svg') }}" />
+
+          <div class="state1">State</div>
+        </div>
+        <div class="countyname">{{ placeholder_name }}</div>
+        <div class="inbox-number">
+          <div class="share">share</div>
+        </div>
+        <div class="rectangle-div"></div>
+        <div class="more-results">more results</div>
+        <img class="share-icon" alt="" src="{{ url_for('static', filename='share-icon.svg') }}" />
+
+        <img
+          class="door-open-icon-outline"
+          alt=""
+          src="{{ url_for('static', filename='door-open-icon-outline.svg') }}"
+        />
+
+        <div class="countyurl">{{ placeholder_url }}</div>
+        <div class="municipalsummary">{{ placeholder_summary }}</div>
+      </article>
+      <article class="searchresult3">
+        <div class="searchresult-child"></div>
+        <div class="searchresult-item"></div>
+        <img class="searchresult-inner" alt="" src="{{ url_for('static', filename='group-23.svg') }}" />
+
+        <div class="municipality">Municipality</div>
+        <div class="group-parent">
+          <div class="searchresult-child"></div>
+          <div class="searchresult-item"></div>
+          <img class="searchresult-inner" alt="" src="{{ url_for('static', filename='group-25.svg') }}" />
+
+          <div class="country1">Country</div>
+        </div>
+        <div class="countyname">{{ placeholder_name }}</div>
+        <div class="inbox-number">
+          <div class="share">share</div>
+        </div>
+        <div class="rectangle-div"></div>
+        <div class="more-results">more results</div>
+        <img class="share-icon" alt="" src="{{ url_for('static', filename='share-icon.svg') }}" />
+
+        <img
+          class="door-open-icon-outline"
+          alt=""
+          src="{{ url_for('static', filename='door-open-icon-outline.svg') }}"
+        />
+
+        <div class="countyurl">{{ placeholder_url }}</div>
+        <div class="municipalsummary">{{ placeholder_summary }}</div>
+      </article>
+      <button class="search2">Search</button>
+      <button class="about">About</button>
+      <button class="contact">Contact</button>
+
+	  <!-- <input class="flood-hazard" type="text" name="data" value="{{ data }}" placeholder="Data query" /> -->
+	  <!-- <input class="input" type="text" name="zip_code" value="{{ zip_code }}" placeholder="ZIP Code" /> -->
+
+
+
+	<form action="/search" method="post">
+		<input class="flood-hazard" type="text" name="data" value="{{ data }}" placeholder="Data query" />
+		<input class="input" type="text" name="zip_code" value="{{ zip_code }}" placeholder="ZIP Code" />
+		<button class="searchbutton1" id="searchButton">
+			<div class="search-container">
+				<div class="search3">Search</div>
+			</div>
+		</button>
+	</form>
+
+      <button class="searchbutton1" id="searchButton">
+        <div class="search-container">
+          <div class="search3">Search</div>
+        </div>
+      </button>
+      <!-- <img class="filter-icon" alt="" src="{{ url_for('static', filename='filter.svg') }}" /> -->
+    </div>
+
+    <script>
+      var searchButton = document.getElementById("searchButton");
+      if (searchButton) {
+        searchButton.addEventListener("click", function (e) {
+          window.location.href = "./search";
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

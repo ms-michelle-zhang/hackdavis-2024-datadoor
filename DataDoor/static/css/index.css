@@ -1,0 +1,136 @@
+.location-pin-outline {
+  position: absolute;
+  top: calc(50% - 16.52px);
+  left: 42.83px;
+  width: 20.7px;
+  height: 32.8px;
+}
+.location-pin-outline-wrapper {
+  position: absolute;
+  top: 798.21px;
+  left: 1200.17px;
+  box-shadow: 0 12px 44px rgba(0, 0, 0, 0.05);
+  border-radius: var(--br-15xl);
+  background-color: var(--color-white);
+  width: 286.8px;
+  height: 67.7px;
+}
+.path-11-icon {
+  position: absolute;
+  top: calc(50% - 12.07px);
+  left: 46.46px;
+  width: 25.2px;
+  height: 25.2px;
+}
+.path-11-wrapper {
+  position: absolute;
+  top: 798.21px;
+  left: 378.17px;
+  box-shadow: 0 12px 44px rgba(0, 0, 0, 0.05);
+  border-radius: var(--br-12xl);
+  background-color: var(--color-white);
+  width: 785.5px;
+  height: 67.7px;
+}
+.logo-icon {
+  position: absolute;
+  height: calc(100% - 122px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 122px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.door {
+  color: var(--color-skyblue);
+}
+.datadoor {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+}
+.logo-parent {
+  position: absolute;
+  top: 123px;
+  left: 696px;
+  width: 527.8px;
+  height: 578px;
+}
+.opening-the-door {
+  margin: 0;
+  position: absolute;
+  top: 701px;
+  left: 632px;
+  font-size: var(--font-size-22xl);
+  color: var(--color-gray);
+}
+.search {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(50% - 38px);
+  font-size: var(--font-size-4xl);
+  letter-spacing: 0.92px;
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+.search-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 12px rgba(0, 102, 255, 0.2);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-skyblue);
+}
+.searchbutton,
+.what-data-are {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.searchbutton {
+  cursor: pointer;
+  padding: 0;
+  bottom: 119px;
+  left: 858px;
+  width: 204px;
+  height: 52px;
+}
+.what-data-are {
+  outline: 0;
+  font-size: 26px;
+  top: 815px;
+  left: 466px;
+  color: var(--color-darkgray);
+}
+.splash,
+.what-data-are,
+.zip-code {
+  text-align: left;
+  font-family: var(--font-segoe-ui);
+}
+.zip-code {
+  border: 0;
+  outline: 0;
+  font-size: 25px;
+  background-color: transparent;
+  position: absolute;
+  top: 816px;
+  left: 1288px;
+  color: var(--color-darkgray);
+}
+.splash {
+  position: relative;
+  background-color: var(--color-aliceblue);
+  width: 100%;
+  height: 1080px;
+  font-size: 121px;
+  color: var(--color-darkslategray-100);
+}
