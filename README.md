@@ -1,3 +1,7 @@
+<img width="383" alt="DataDoor Thumbnail" src="https://github.com/ms-michelle-zhang/hackdavis-2024-datadoor/assets/73187144/996a1e30-0bfe-4259-a549-c53aa02356ff">
+
+<img width="959" alt="ResultsScreenThumbnail" src="https://github.com/ms-michelle-zhang/hackdavis-2024-datadoor/assets/73187144/4d31c5b4-d7e8-47ce-bfc7-89c285e41a21">
+
 ## Inspiration
 Michelle publishes data on the California Open Data portal as part of her work. She realized that there was a lot of great data on the data portal, but it was hard for people to find out about this data to explore it. There is a need for a tool that empowers people to discover data from a variety of sources.
 
