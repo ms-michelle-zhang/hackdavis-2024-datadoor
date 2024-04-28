@@ -1,5 +1,3 @@
-<img width="383" alt="DataDoor Thumbnail" src="https://github.com/ms-michelle-zhang/hackdavis-2024-datadoor/assets/73187144/996a1e30-0bfe-4259-a549-c53aa02356ff">
-
 <img width="959" alt="ResultsScreenThumbnail" src="https://github.com/ms-michelle-zhang/hackdavis-2024-datadoor/assets/73187144/4d31c5b4-d7e8-47ce-bfc7-89c285e41a21">
 
 ## Inspiration
