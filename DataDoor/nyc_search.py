@@ -2,10 +2,10 @@
 import pandas as pd
 from rapidfuzz import process
 
-def get_fed(data):
+def get_nyc(data):
 
     # Read the CSV file into a pandas DataFrame
-    df = pd.read_csv('federal_2024.csv')
+    df = pd.read_csv('city_NewYorkCity.csv')
 
     # Define a function to perform the fuzzy search
     def fuzzy_search(query, choices, limit=1):
@@ -41,5 +41,5 @@ def get_fed(data):
         # print(formatted_row)
         # print("Match score:", match_score)
         # print()
-    print("Fed done!")
+    print("NYC done!")
     return formatted_row

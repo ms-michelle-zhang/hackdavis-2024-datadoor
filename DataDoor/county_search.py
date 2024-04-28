@@ -40,7 +40,7 @@ def custom_google_search_county(query, county, state):
 #     results = search(search_query, num_results=2)
 #     return results
 
-def get_muni_county(data, address_dict):
+def get_county(data, address_dict):
 
 
     # Example usage:

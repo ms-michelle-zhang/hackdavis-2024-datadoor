@@ -5,6 +5,8 @@ from geocode import get_location
 from muni_county_search import get_muni_county
 from fed_search import get_fed
 from state_search import get_state
+from nyc_search import get_nyc
+from county_search import get_county
 
 
 
@@ -66,6 +68,13 @@ def handle_form_submission():
         state_dict["name"] = truncate_name(state_dict["name"])
         state_dict["summary"] = truncate_summary(state_dict["summary"])
         state_dict["url"] = truncate_url(state_dict["url"])
+
+        #####NYC for Demo Purposes Only
+        if address_dict["City"]="Manhattan":
+            nyc_dict = get_nyc(data)
+            nyc_dict["name"] = truncate_name(state_dict["name"])
+            state_dict["summary"] = truncate_summary(state_dict["summary"])
+            state_dict["url"] = truncate_url(state_dict["url"])
 
         #####County and Muni
         county_dict, muni_dict = get_muni_county(data, address_dict)
